@@ -34,7 +34,7 @@ header {
 	top: 0px;
 }
 
-#arena {
+.arena {
 	position: absolute;
 	z-index: 0;
 	size: 100%;
@@ -84,7 +84,7 @@ header {
     z-index: 4;
 } 
 
-.underscores {
+#underscores {
 	position: absolute;
 	box-align: center;
 	color: white;
@@ -100,7 +100,7 @@ header {
 	z-index: 3;
 }
 
-.guesses {
+#guesses {
 	position: relative;
     color: white;
 	font-family: "Courier New";
@@ -113,7 +113,7 @@ header {
 	z-index: 3;
 }
 
-.wins {
+#wins {
 	position: absolute;
 	color: white;
 	font-family: "Courier New";
@@ -125,7 +125,7 @@ header {
 	z-index: 3;
 }
 
-.losses {
+#losses {
 	position: absolute;
 	color: white;
 	font-family: "Courier New";
