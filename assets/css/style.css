@@ -1,10 +1,138 @@
-blue {
-  color: blue;
+body {
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
 }
 
-#orange {
-  color: orange;
+header {
+	top: 40;
+	border: 3px solid orange;
+	color: orange;
+	text-align: center;
+	position: relative;
+	z-index: 4;
+	height: 400px;
 }
+
+.hdr {
+	font-family: "Courier New";
+	text-align: right;
+	font-size: 1.5em;
+	font-style: bold;
+	color: gray;
+	text-shadow: 5px 2px navy;
+	position: relative;
+	font-weight: 900;
+	top: 15px;
+	right: 15px;
+}
+
+.wallpapers {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
 #arena {
-  size: 100%;
+	position: absolute;
+	z-index: 0;
+	size: 100%;
+}
+
+#crack {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+	width: 1500px;
+	opacity: 0.1;
+}
+
+#h4x {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	opacity: 0.1;
+}
+
+/* -------------------------------------------------- */
+/* -------------------------------------------------- */
+/* -------------------------------------------------- */
+/* BOXES  */
+
+
+
+
+.content {
+	position: absolute;
+	font-family: "Courier New";
+	height: 640px;
+	width: 1200px;
+	top: 120px;
+	left: 200px;
+    z-index: 2;
+}
+
+.block {
+    background-color: black;
+    height: 200px;
+	width: 90%;
+	top: 60px;
+    left: 60px;
+    z-index: 4;
+} 
+
+.underscores {
+	position: absolute;
+	box-align: center;
+	color: white;
+	font-family: "Courier New";
+	text-align: center;
+	vertical-align: center;
+	font-size: 4em;
+    border: 5px solid black;
+	height: 200px;
+	width: 90%;
+	top: 60px;
+	left: 60px;
+	z-index: 3;
+}
+
+.guesses {
+	position: relative;
+    color: white;
+	font-family: "Courier New";
+	text-align: center;
+	font-size: 2em;
+	height: 320px;
+	width: 90%;
+	top: 290px;
+	left: 60px;
+	z-index: 3;
+}
+
+.wins {
+	position: absolute;
+	color: white;
+	font-family: "Courier New";
+	font-size: 2em;
+	height: 50px;
+	width: 50%;
+	bottom: 0px;
+	left: 200px;
+	z-index: 3;
+}
+
+.losses {
+	position: absolute;
+	color: white;
+	font-family: "Courier New";
+	font-size: 2em;
+	height: 50px;
+	width: 300px;
+	bottom: 0px;
+	right: 0px;
+	z-index: 3;
 }

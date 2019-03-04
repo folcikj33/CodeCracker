@@ -1,55 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-    <title>Document</title>
-  </head>
-  <body>
-    <div class="visuals">
-      <img
-        id="arena"
-        src="assets/images/arena1.png"
-        width="400px"
-        height="200px"
-      />
-      <img
-        id="arena"
-        src="assets/images/crackdown.png"
-        width="100%"
-        height="100%"
-      />
-      <div id="blue">
-        <div id="orange">
-          <box id=>
-          
-          <h1 id="3">Your mainframe is getting h4cked! Quick, guess the codeword before it's too late! </h1>
-          </box>
-        </div>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<!-- my CSS -->
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+		<!-- my RESET -->
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+		<title>CodeCracker</title>
+	</head>
 
-        <div>
-          <h1>3</h1>
-        </div>
+	<body>
+		<div id="container">
+			<header class="boxes">
+				<h1 class="hdr">Your mainframe is getting h4cked!</h1>
+				<br />
+				<h1 class="hdr">
+					Quick, guess the codeword before it's too late!
+				</h1>
+			</header>
+			<div class="wallpapers">
+				<img id="arena" src="assets/images/arena1.png" />
+				<img id="crack" src="assets/images/crackdown.png" />
+				<img id="h4x" src="assets/images/h4x.png" />
+			</div>
+		</div>
 
-        <div>
-          <h1>4</h1>
-        </div>
-      </div>
+		<div class="content">
+			<div class="underscores"><br />_ _ _ _ _</div>
+			<box class="block"></box>
+		</div>
+		<div class="content">
+			<div class="guesses">Guesses: 7</div>
+		</div>
+		<div class="content">
+			<div class="wins">wins: 0</div>
+		</div>
+		<div class="content">
+			<div class="losses">losses: 0</div>
+		</div>
 
-      <div></div>
-      <div>
-        <h1>1</h1>
-      </div>
-      <div>
-        <h1>3</h1>
-      </div>
-      <div>
-        <h1>4</h1>
-      </div>
-    </div>
-
-    <script type="text/javascript" src="assets/javascript/game.js"></script>
-  </body>
+		<script type="text/javascript" src="assets/javascript/game.js"></script>
+	</body>
 </html>
